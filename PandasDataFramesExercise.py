@@ -89,4 +89,5 @@ print()
 
 # What is the total sales for the products in the above new dataframe? (print out ONLY total sales)
 print('Total Sales for the products that have sold between 11,500 and 12,000:')
-print(round(produce2.TotalSale.sum(), 2))
+print(produce2['TotalSale'])
+print('Total Sales for all products:', round(produce2.TotalSale.sum(), 2))
